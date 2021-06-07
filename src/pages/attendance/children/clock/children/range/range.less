@@ -1,0 +1,51 @@
+.range-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    font-family: PingFang-SC;
+    background-color: #F6F6F6;
+
+    .map-container {
+        width: 100%;
+        height: 100%;
+
+        .amap-controls .amap-geolocation {
+            top: 20px;
+        }
+    }
+
+    .infos-container {
+        bottom: 0;
+        width: 100%;
+        z-index: 200;
+        height: 2.8rem;
+        padding: 0.43rem;
+        position: absolute;
+        background-color: #FFFFFF;
+
+        span {
+            font-size: 0.32rem;
+            line-height: 0.45rem;
+        }
+
+        span:first-child {
+            color: #333333;
+            font-size: 0.43rem;
+            font-weight: bold;
+            line-height: 0.89rem;
+        }
+
+        span:nth-child(3) {
+            width: 9rem;
+            color: #42A5FC;
+            overflow: hidden;
+            white-space: nowrap;
+            display: inline-block;
+            text-overflow: ellipsis;
+
+            img {
+                margin-right: 0.2rem;
+            }
+        }
+    }
+}

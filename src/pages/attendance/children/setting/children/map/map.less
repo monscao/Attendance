@@ -1,0 +1,103 @@
+.position-setting {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-size: 0.37rem;
+    font-family: PingFang-SC;
+    background-color: #FFFFFF;
+
+    .search-container {
+        bottom: 0;
+        z-index: 1;
+        width: 100%;
+        padding: 0.43rem;
+        position: absolute;
+        max-height: 9.25rem;
+        background-color: #FFFFFF;
+
+        .input-container {
+            width: 100%;
+            padding: 0 0.53rem;
+            border-radius: 0.2rem;
+            border: 1px solid #D2D2D2;
+            background-color: #F6F6F6;
+
+            img {
+                margin-right: 0.1rem;
+            }
+
+            input {
+                width: 90%;
+                border: none;
+                height: 0.93rem;
+                background-color: #F6F6F6;
+            }
+        }
+
+        .result-container {
+            height: 4.32rem;
+            overflow-y: auto;
+            margin: 0.2rem 0;
+
+            .result-list {
+
+                .list-item {
+                    display: flex;
+                    margin: 0.2rem 0;
+                    align-items: center;
+                    flex-direction: row;
+
+                    img {
+                        width: 1.2rem;
+                        height: 1.2rem;
+                    }
+
+                    .item-infos {
+                        flex: 1;
+                        padding: 0.1rem 0.2rem;
+
+                        span {
+                            width: 6rem;
+                            display: block;
+                            overflow: hidden;
+                            color: #999999;
+                            font-size: 0.28rem;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                        }
+
+                        span:first-child {
+                            font-weight: bold;
+                            color: #333333;
+                        }
+                    }
+
+                    .selected-icon {
+                        flex: 1;
+
+                        img {
+                            width: 19px;
+                            height: 14px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .save-container {
+            .am-button {
+                width: 100%;
+                height: 1.07rem;
+                border-radius: 0.6rem;
+            }
+        }
+    }
+
+    .amap-logo {
+        opacity: 0;
+    }
+
+    .amap-copyright {
+        opacity: 0;
+    }
+}

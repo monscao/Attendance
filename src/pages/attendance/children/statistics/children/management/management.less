@@ -1,0 +1,179 @@
+.management-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    font-size: 0.37rem;
+    font-family: PingFang-SC;
+    background-color: #FFFFFF;
+
+    .am-tabs .am-tabs-default-bar {
+        .am-tabs-default-bar-tab {
+            color: #999999;
+        }
+
+        .am-tabs-default-bar-tab-active {
+            color: #333333;
+        }
+
+        .am-tabs-default-bar-underline {
+            width: 20% !important;
+            margin-left: 15%;
+            background-color: #108EE9;
+        }
+    }
+
+    .am-accordion .am-accordion-item {
+        border-bottom: 1px solid #ECECEC !important;
+
+        .am-accordion-header {
+            color: #333333;
+            font-size: 0.37rem;
+            padding-left: 0rem;
+            padding-left: 0.64rem;
+        }
+
+        .am-accordion-header::after {
+            display: none !important;
+        }
+    }
+
+    .am-list .am-list-item {
+        padding-left: 0.64rem;
+        background-color: #F8F8F8;
+
+        .am-list-content {
+            font-size: 0.37rem;
+        }
+    }
+
+    .am-list .am-list-item:last-child {
+        border-bottom: none;
+    }
+
+    .action-container {
+        width: 100%;
+        display: flex;
+        height: 1.28rem;
+        padding: 0 0.64rem;
+        margin-top: 0.27rem;
+        align-items: center;
+        background-color: #FFFFFF;
+
+        .buttons-container {
+            width: 2.56rem;
+            height: 0.75rem;
+
+            button {
+                width: 50%;
+                height: 100%;
+                color: #42A5FC;
+                border: 1px solid #42A5FC;
+                background-color: #FFFFFF;
+            }
+
+            button:first-child {
+                border-radius:  0.1rem 0 0 0.1rem;
+            }
+
+            button:last-child {
+                border-radius:  0rem 0.1rem 0.1rem 0;
+            }
+
+            .button-active {
+                color: #FFFFFF;
+                background-color: #42A5FC;
+            }
+        }
+
+        .date-container {
+            display: flex;
+            height: 0.75rem;
+            margin-left: auto;
+            align-items: center;
+            font-size: 0.37rem;
+            color: #666666;
+
+            span {
+                margin: 0 0.21rem;
+            }
+        }
+    }
+
+    .content-container {
+        width: 100%;
+        margin-top: 0.27rem;
+        background-color: #FFFFFF;
+
+        .basic-information {
+            flex: none;
+            display: flex;
+            height: 2.24rem;
+            align-items: center;
+            border-radius: 0.3rem;
+            flex-direction: row;
+            background-color: #FFFFFF;
+            padding: 0.43rem 0.64rem;
+    
+            img {
+                width: 1.17rem;
+                height: 1.17rem;
+            }
+            
+            .group-title {
+                color: #42A5FC;
+                margin-right: 0.2rem;
+            }
+
+            .name-container {
+                margin-left: 0.32rem;
+    
+                h5 {
+                    margin: 0;
+                    font-weight: bold;
+                    font-size: 0.37rem;
+                }
+    
+                span {
+                    font-size: 0.32rem;
+                }
+    
+                span:nth-child(2) {
+                    color: #999999;
+                }
+                
+                span:last-child {
+                    color: #999999;
+                }
+            }
+
+            .back-container {
+                flex: 1;
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 13px;
+                    height: 13px;
+                    margin-left: auto;
+                }
+
+                span {
+                    color: #42A5FC;
+                    margin-left: 0.1rem;
+                }
+            }
+
+            .ant-select .ant-select-selection {
+                width: 2.2rem;
+                padding: 0 0.1rem;
+                border-radius: 0.3rem;
+                background-color: #F6F6F6;
+            }
+        }
+        
+        .ant-row .ant-col:last-child {
+            padding: 0 0.3rem;
+            text-align: right;
+        }
+    }
+}

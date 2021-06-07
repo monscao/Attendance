@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "DINPRO-REGULAR";
+    font-display: swap;
+    src: url("../../../../../../../../asset/font/DINPRO-REGULAR.OTF"); /* IE9 */
+    src: url("../../../../../../../../asset/font/DINPRO-REGULAR.OTF") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+.main-container {
+    top: 4rem;
+    left: 50%;
+    padding: 0% 15%;
+    text-align: center;
+    position: absolute;
+    transform: translateX(-50%);
+
+    .butt-container {
+        width: 3.4rem;
+        height: 3.4rem;
+        margin: 0 auto;
+        padding-top: 23%;
+        color: #FFFFFF;
+        font-weight: bold;
+        margin-bottom: 8%;
+        text-align: center;
+        border-radius: 50%;
+        letter-spacing: 1px;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        span:first-child {
+            font-size: 0.48rem;
+            line-height: 0.67rem;
+        }
+
+        span:last-child {
+            font-size: 0.43rem;
+            line-height: 0.56rem;
+            font-family: "DINPRO-REGULAR";
+        }
+    }
+
+    .text-container {
+        display: flex;
+        font-size: 0.27rem;
+        white-space: nowrap;
+        line-height: 0.37rem;
+
+        span:nth-child(2) {
+            margin: 0 0.1rem;
+        }
+
+        span:last-child {
+            width: 3rem;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+.modal-container {
+    font-size: 0.37rem;
+    color: #333333;
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    span {
+        line-height: 0.8rem;
+    }
+
+    span:nth-child(2) {
+        font-weight: bold;
+    }
+
+    span:last-child {
+        font-weight: 500;
+    }
+}
+
+.modal-style .am-modal-footer .am-modal-button {
+    font-size: 0.43rem;
+}

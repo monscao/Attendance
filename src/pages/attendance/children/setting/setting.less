@@ -1,0 +1,90 @@
+.setting-container {
+    width: 100%;
+    display: flex;
+    color: #333333;
+    font-size: 0.37rem;
+    padding: 0 0.43rem;
+    flex-direction: column;
+
+    .ant-row {
+        padding: 0 0.53rem;
+
+        .ant-col:last-child {
+            text-align: right;
+        }
+    }
+
+    .level-first {
+        width: 100%;
+        height: 3.09rem;
+        margin-top: 0.43rem;
+        border-radius: 0.2rem;
+        background-color: #FFFFFF;
+
+        div {
+            height: 1.55rem;
+            line-height: 1.55rem;
+
+            img:last-child {
+                margin-left: 0.27rem;
+            }
+        }
+        
+        div:first-child {
+            border-bottom: 1px solid #ECECEC;
+        }
+    }
+
+    .level-first:first-child {
+        margin-top: 0;
+
+        span {
+            color: #42A5FC;
+        }
+
+        .ant-row:first-child span {
+            width: 4rem;
+            overflow: hidden;
+            white-space: nowrap;
+            display: inline-block;
+            text-overflow: ellipsis;
+        }
+
+        .ant-row .ant-col:last-child {
+            display: flex;
+            align-items: center;
+
+            img:first-child {
+                margin-right: 0.1rem;
+                margin-left: auto;
+            }
+
+            span:first-child {
+                margin-right: 0.1rem;
+                margin-left: auto;
+            }
+        }
+    }
+
+    .level-first:nth-child(4) {
+        height: 1.55rem;
+
+        div {
+            border: none;
+        }
+    }
+
+    .setting-map {
+        width: 100%;
+        height: 6.16rem;
+        margin-top: 0.43rem;
+    }
+
+    .amap-logo {
+        opacity: 0;
+    }
+
+    .amap-copyright {
+        opacity: 0;
+    }
+}

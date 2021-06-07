@@ -1,2 +1,35 @@
 # Attendance
 H5 project for attendance and clocking.
+
+Result:
+
+Index:
+![0.png](https://i.loli.net/2021/06/07/jvuKMz7Px2cWDre.png)
+![1.png](https://i.loli.net/2021/06/07/DirFMB26nZ5yq1A.png)
+![2.png](https://i.loli.net/2021/06/07/C8Wv6tmlG7FXAhR.png)
+![3.png](https://i.loli.net/2021/06/07/StPRE5hfodu1sXD.png)
+![4.png](https://i.loli.net/2021/06/07/IQb3tKluZ2iAL1M.png)
+![5.png](https://i.loli.net/2021/06/07/ZGjOWJUvl1a4Y6h.png)
+![6.png](https://i.loli.net/2021/06/07/TiGNWzcJKHwpglj.png)
+![7.png](https://i.loli.net/2021/06/07/BKjIJ5uS2pWzkRq.png)
+![8.png](https://i.loli.net/2021/06/07/NaIRbP3u1ZdjlHJ.png)
+![9.png](https://i.loli.net/2021/06/07/6u5WUSIoCytV3eJ.png)
+![10.png](https://i.loli.net/2021/06/07/kyS13meQWnTZ2EO.png)
+![11.png](https://i.loli.net/2021/06/07/Jci5NKpOXbVvndm.png)
+![12.png](https://i.loli.net/2021/06/07/i19JZsTVwn3H8uv.png)
+![13.png](https://i.loli.net/2021/06/07/Bv5zdPHSeyjVuRi.png)
+![14.png](https://i.loli.net/2021/06/07/qKXvtdglYZ68fTz.png)
+![15.png](https://i.loli.net/2021/06/07/5qcZoMKRyDhOaT3.png)
+![16.png](https://i.loli.net/2021/06/07/icG8vTaYSDX7EHe.png)
+![17.png](https://i.loli.net/2021/06/07/MYLqWD6bIc3P7CZ.png)
+![18.png](https://i.loli.net/2021/06/07/kaPuJLBWvoszx3X.png)
+![19.png](https://i.loli.net/2021/06/07/SlY8cMU7nZzLbtv.png)
+![20.png](https://i.loli.net/2021/06/07/zn85waRq4BcZC9I.png)
+![21.png](https://i.loli.net/2021/06/07/VM2AUWtTC6g98yN.png)
+![22.png](https://i.loli.net/2021/06/07/W8crsBzxqeRZmby.png)
+![23.png](https://i.loli.net/2021/06/07/zd91yZCqP2aSUr4.png)
+![24.png](https://i.loli.net/2021/06/07/ic7I23lxg4vCyDm.png)
+![25.png](https://i.loli.net/2021/06/07/fJYlAcrzw2oRECT.png)
+![26.png](https://i.loli.net/2021/06/07/8BpVqgaKcTUdtzw.png)
+![27.png](https://i.loli.net/2021/06/07/8RxCAYgN6PLZb9M.png)
+![28.png](https://i.loli.net/2021/06/07/5S1HwLTbYrOQ2Z9.png)

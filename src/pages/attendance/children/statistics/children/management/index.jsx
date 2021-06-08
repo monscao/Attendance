@@ -65,7 +65,7 @@ class management extends Component {
             endTime = moment(this.state.endTime).subtract(1, 'week');
         } else {
             startTime = moment(this.state.startTime).subtract(1, 'month');
-            endTime = moment(this.state.endTime).subtract(1, 'month');
+            endTime = moment(moment(this.state.endTime).subtract(1, 'month').format('YYYY-MM-') + moment(this.state.endTime).subtract(1, 'month').endOf('month').format('DD'));
         }
         this.setState({ startTime, endTime });
         this.getStatisticsData(startTime, endTime, this.state.tab);
@@ -83,7 +83,7 @@ class management extends Component {
         this.getStatisticsData(startTime, endTime, this.state.tab);
     }
     getStatisticsData = async (startTime, endTime, tab) => {
-        let start = moment(startTime).format('YYYY-MM-DD'), end = moment(endTime).format('YYYY-MM-DD');
+        let start = moment(startTime).format('YYYY-MM-DD'), end = endTime > moment() ? moment().subtract(1, 'days').format('YYYY-MM-DD') : moment(endTime).format('YYYY-MM-DD');
         let params = {
             Name: tab === '我的考勤' ? this.name : '',
             dateFrom: start,
@@ -109,11 +109,11 @@ class management extends Component {
     getList(data, type) {
         return data.map(item => {
             return type === 'my' ? 
-            <List.Item>{ item.DateDay + ` (${ moment(item.DateDay).format('dddd') })` }</List.Item>:
+            <List.Item>{ moment(item.DateDay).format('YYYY-MM-DD') + ` (${ moment(item.DateDay).format('dddd') })` }</List.Item>:
             <List.Item>
                 <Row>
                     <Col span={ 12 }>{ item.Name || '--' }</Col>
-                    <Col span={ 12 }>{ item.DateDay }</Col>
+                    <Col span={ 12 }>{ moment(item.DateDay).format('YYYY-MM-DD') }</Col>
                 </Row>
             </List.Item>
         })
